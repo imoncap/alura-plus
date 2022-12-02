@@ -119,3 +119,34 @@ body {
     font-weight: 700;
     color: var(--branco-principal);
 }
+
+.rodape {
+    text-align: center;
+    margin-bottom: 5em 3em;
+}
+
+.rodape__imagem {
+    margin: 3em;
+}
+
+.links__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.links__item {
+    color: var(--branco-principal);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 1em;
+}
+
+.rodape__final {
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 1em 0;
+}
